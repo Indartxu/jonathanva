@@ -1,0 +1,13 @@
+{
+    "name": "iCategoryID Finder",
+    "version": "1.0",
+    "description": "Extensión para obtener el valor Inditex.iCategoryId en categorías de Massimo Dutti.",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

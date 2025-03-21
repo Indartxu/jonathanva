@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>iCategoryID Finder</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        width: 250px;
+      }
+      button {
+        padding: 8px 12px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #555;
+      }
+      #result {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      #iCategoryInput {
+        width: 100%;
+      }
+      #message {
+        color: #666;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="get-id">Obtener iCategoryID</button>
+    <div id="result">
+      <input type="text" id="iCategoryInput" readonly />
+      <span id="message"></span>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
